@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-rrus-tenant/nodejs-rest-http/nodejs-rest-http@sha256:379e2ffa9ece54e928067173fe412fd07a1f35f97f52097194ea0cf1ab250048
+      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-rrus-tenant/nodejs-rest-http/nodejs-rest-http@sha256:f466bd7f287115423eae6cbd5102156f7122e7e4d0ddedb80853a26e9369bb7c
         name: my-nodejs
         resources: {}
 status: {}
