@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-rest-http
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-rrus-tenant/nodejs-rest-http/nodejs-rest-http@sha256:555f950bcced1e890337735ab8209a0146be7a81229f8549d9d6b79345746769
+      - image: quay.io/redhat-user-workloads-stage/rhn-engineering-rrus-tenant/nodejs-rest-http/nodejs-rest-http@sha256:f466bd7f287115423eae6cbd5102156f7122e7e4d0ddedb80853a26e9369bb7c
         name: my-nodejs
         ports:
         - containerPort: 3001
